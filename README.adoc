@@ -5,4 +5,5 @@
 
 == notes
 This code is here to show that `commons-collections` does not work as expected with `Collections.singleton`
-at least when the value `isBlank()` as detected by `commons-lang3`.
+at least when the value of the singleton `isBlank()` as detected by `commons-lang3`.
+Tested with  `commons-collections:4.4` & java `1.8`. 

@@ -6,9 +6,17 @@ import java.util.Collections;
 
 import org.apache.commons.collections4.CollectionUtils;
 import org.apache.commons.lang3.StringUtils;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class CollectionUtilsDoFilterTest {
+	@BeforeClass
+	public static void beforeClass() {
+		System.out.println("java.vm.vendor="+System.getProperty("java.vm.vendor"));
+		System.out.println("java.runtime.version="+System.getProperty("java.runtime.version"));
+
+		//System.out.println(System.getProperties());
+	}
 	@Test
 	public void testCollectionUtilsDotFilterWhenIsNotBlank() {
 		String[] values = {"someValue"};
