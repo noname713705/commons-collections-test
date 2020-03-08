@@ -1,0 +1,8 @@
+= commons-collection & Collections.singleton
+:toc:
+:toclevels: 4
+:numbered:
+
+== notes
+This code is here to show that `commons-collections` does not work as expected with `Collections.singleton`
+at least when the value `isBlank()` as detected by `commons-lang3`.
